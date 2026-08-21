@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import "./globals.css";
+export const metadata:Metadata={metadataBase:new URL("https://moonlit-tarot.wintry-mink-1702.chatgpt.site"),title:"달빛 타로 | 온라인 타로 카드 리딩",description:"원 카드부터 켈틱 크로스까지, 질문을 기록하고 78장의 타로카드에서 나만의 흐름을 뽑아보세요.",openGraph:{title:"달빛 타로",description:"질문은 가볍게, 해석은 깊게",images:[{url:"/og.png",width:1200,height:630,alt:"금빛 초승달이 놓인 달빛 타로"}]},twitter:{card:"summary_large_image",title:"달빛 타로",description:"질문은 가볍게, 해석은 깊게",images:["/og.png"]},icons:{icon:"/favicon.svg",shortcut:"/favicon.svg"}};
+export default function RootLayout({children}:Readonly<{children:React.ReactNode}>){return <html lang="ko"><body>{children}</body></html>}
