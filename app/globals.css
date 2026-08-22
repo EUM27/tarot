@@ -47,6 +47,7 @@ button{color:inherit}
 .position-editor{margin:-4px 0 20px;padding:18px;background:#11101d;border:1px solid var(--line)}
 .position-editor>p{margin:0 0 13px;color:var(--muted);font-size:11px}
 .position-editor>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.position-editor.choice-editor>div{grid-template-columns:repeat(2,minmax(0,1fr))}
 .position-editor label{display:grid;grid-template-columns:25px minmax(0,1fr);align-items:center;background:#171425;border:1px solid var(--line)}
 .position-editor label>span{color:var(--gold);font:10px Arial,sans-serif;text-align:right}
 .position-editor input{width:100%;min-width:0;height:42px;border:0;background:transparent;color:var(--ink);padding:0 10px;outline:none;font:12px "Noto Serif KR","Apple SD Gothic Neo",serif}
@@ -186,7 +187,7 @@ footer small{color:#777182;font-size:10px;line-height:1.8}
 .spread-option:hover,.spread-option.active{transform:none}
 .question-head{align-items:center}.question-head>label{gap:12px}.question-panel label strong{font-size:18px}
 .position-toggle{min-height:44px;padding:0 12px}
-.position-editor{padding:14px 10px}.position-editor>div{grid-template-columns:1fr}.position-editor input{height:44px;font-size:13px}
+.position-editor{padding:14px 10px}.position-editor>div,.position-editor.choice-editor>div{grid-template-columns:1fr}.position-editor input{height:44px;font-size:13px}
 .cards-layout{gap:10px}
 .tarot-card{width:105px}
 .card-inner{height:162px}
